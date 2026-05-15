@@ -404,6 +404,7 @@ if api_key:
 
                 with st.spinner("Calling Open AI model..."):
                     description_final = description if description else DEFAULT_PROMPT
+                    description_final += "Prepare the explanation in bullet points"
                     final_model = custom_model.strip() or model_choice
                     description = get_pricing_explanation(
                         client,
