@@ -1,0 +1,14 @@
+streamlit
+openai==1.35.15
+python-dotenv
+httpx==0.27.2
+folium==0.20.0
+streamlit-folium==0.27.2
+osmnx==2.1.0
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.8.0
+catboost==1.2.10
+joblib==1.5.3
+shap==0.50.0
