@@ -18,6 +18,13 @@ from utils import (
     validate,
 )
 
+MAINTENANCE_MODE = True  # change to False when ready
+
+if MAINTENANCE_MODE:
+    st.title("🚧 Maintenance mode")
+    st.write("The app is temporarily unavailable. Please try later.")
+    st.stop()
+
 st.set_option("client.showErrorDetails", True)
 
 
