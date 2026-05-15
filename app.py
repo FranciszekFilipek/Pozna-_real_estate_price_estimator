@@ -29,7 +29,7 @@ def load_models():
     cat_model = CatBoostRegressor()
     cat_model.load_model("models/catboost_model_test.bin")
 
-    explainer = joblib.load("models/shap_explainer.joblib")
+    explainer = joblib.load("models/final_explainer.joblib")
 
     return kmeans, cat_model, explainer
 
