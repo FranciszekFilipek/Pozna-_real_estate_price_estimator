@@ -18,7 +18,7 @@ from utils import (
     validate,
 )
 
-MAINTENANCE_MODE = False  # change to False when ready
+MAINTENANCE_MODE = True  # change to False when ready
 
 if MAINTENANCE_MODE:
     st.title("🚧 Maintenance mode")
